@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'.sans-serif;
+}
+ nav{
+    position: fixed;
+    left: 0; top: 0;
+    height: 100px;
+    width: 270vh;
+    
+
+
+ } 
+ 
+ nav.navbar{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background-color: brown;
+    
+ }
+
+nav.navbar.menu{
+    display: inline-table;
+
+}
+
+navbar.menu.li{
+    list-style: none;
+    margin: 0 17px;
+    justify-content: end;
+}
+
+.navbar.menu.li.a{
+    display: inline-flex;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    justify-content: end;
+}
+
+
+.HOME{
+    margin: auto;
+    text-align: center;
+    padding-top: 147px;
+   
+}
+}
+.HOME.h1{
+    padding-top: 100px;
+    font-weight: 100;
+    color: azure;
+}
+
+.HOME.p{
+    padding-top: 100px;
+    text-align: center;
+    font: 200;
+      
+}
+.ABOUT{
+    margin: auto;
+    text-align: center;
+    padding-top: 47px;
+
+}
+
+.SKILLS{
+    margin: auto;
+    text-align: center;
+    padding-top: 47px; 
+}
+
+.PROJECTS{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 47px; 
+}
+
+.CONTACT{
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 47px; 
+   
+
+}
+
+CONTACT.icon image{
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    width: 300px;
+    
+
+}
